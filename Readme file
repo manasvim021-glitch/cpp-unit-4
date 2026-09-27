@@ -1,0 +1,155 @@
+Worked for 4s
+
+Here is a ready-to-copy README.md for your GitHub repository containing the 16 C++ File Handling programs.
+
+OOP with C++ – Files and Streams
+
+📚 Unit 4: Files and Streams
+
+This repository contains 16 C++ programs based on File Handling and Streams in Object-Oriented Programming with C++.
+
+The programs cover creating, reading, writing, updating, searching, copying, and managing files using C++.
+
+🎯 Objective
+
+The main objective of this code book is to understand:
+
+- File handling in C++
+- Text files
+- Binary files
+- Input and output streams
+- File pointers
+- Random access
+- File error handling
+- Student record management
+- Library record management
+
+🛠️ Requirements
+
+- C++ Compiler
+- VS Code / Code::Blocks / Dev-C++
+- C++17 or later
+- Basic knowledge of C++
+
+📂 Programs Included
+
+No.| Program Name
+1| Write Text to a File
+2| Read a File Line by Line
+3| Append Data to a File
+4| Copy One Text File into Another
+5| Count Lines, Words, and Characters
+6| Search for a Word in a File
+7| Store Student Records in a Text File
+8| Read and Search Student Records
+9| Update a Student Record Using a Temporary File
+10| File Pointer Navigation
+11| Binary File Writing and Reading
+12| Random Access in a Binary File
+13| File Error Handling and Stream States
+14| File Statistics Mini-Project
+15| Student Record Manager Mini-Project
+16| Library Record Mini-Project
+
+📁 Files Created During Execution
+
+Some programs automatically create files such as:
+
+message.txt
+message_copy.txt
+students.txt
+students_temp.txt
+navigation.txt
+students.dat
+records.dat
+student_records.txt
+student_records_temp.txt
+library_books.txt
+
+These files are created in the same folder where the program is executed, unless a different path is specified.
+
+▶️ How to Run
+
+Step 1: Clone the Repository
+
+git clone YOUR_GITHUB_REPOSITORY_LINK
+
+Step 2: Open the Project
+
+Open the downloaded folder in VS Code.
+
+Step 3: Open a Program
+
+For example:
+
+concept1.cpp
+
+Step 4: Compile
+
+g++ -std=c++17 concept1.cpp -o concept1
+
+Step 5: Run
+
+Windows:
+
+concept1
+
+Linux/macOS:
+
+./concept1
+
+📝 Learning Method
+
+For every program:
+
+1. Read the aim.
+2. Understand the concept and syntax.
+3. Type the program yourself.
+4. Compile and run the program.
+5. Observe the file created by the program.
+6. Compare your output with the expected output.
+7. Modify the program and experiment with it.
+
+💡 Important C++ File Handling Classes
+
+"ofstream"
+
+Used for writing data into a file.
+
+std::ofstream file("data.txt");
+
+"ifstream"
+
+Used for reading data from a file.
+
+std::ifstream file("data.txt");
+
+"fstream"
+
+Used for both reading and writing.
+
+std::fstream file("data.txt");
+
+📌 Common File Modes
+
+std::ios::in
+std::ios::out
+std::ios::app
+std::ios::binary
+std::ios::trunc
+
+👩‍💻 Author
+
+Manasvi Mane
+
+B.Tech – Artificial Intelligence and Data Science
+
+⭐ Purpose
+
+This repository is created for learning, practice, and academic work related to OOP with C++ and File Handling.
+
+---
+
+📖 Topics Covered
+
+"C++" • "OOP" • "File Handling" • "Streams" • "Text Files" • "Binary Files" • "File Pointers" • "Random Access" • "Student Records" • "Library Records"You can save this directly as README.md in your GitHub project folder.
